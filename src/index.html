@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/main.css">
+</head>
+
+<body>
+    <!-- Getting started -->
+
+    <!-- Site-Header -->
+    <header class="site-header bg-hero-pattern bg-no-repeat bg-cover pt-12 pb-12">
+        <div class="container mx-auto max-w-6xl p-4 sm:p-4 md:p-4 lg:p-4 xl:p-4 2xl:p-4">
+            <div class="site-header__inner flex justify-between">
+                <a href="#">
+                    <img class="w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full" src="../images/site-logo.svg"
+                        alt="Site logo">
+                </a>
+                <nav class="navbar hidden sm:hidden md:block lg:block xl:block 2xl:block">
+                    <ul class="navbar__list flex items-center gap-7 text-white">
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">About</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">Careers</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">Events</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">Products</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">Support</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="md:hidden">
+                    <img src="../images/menu-btn.svg" alt="Menu button">
+                </button>
+            </div>
+            <!-- Header content -->
+            <div
+                class="hero__content max-w-sm md:max-w-md xs:mx-auto lg:max-w-lg xl:max-w-xl border-2 mb-32 mt-32 p-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl uppercase text-white">Immersive
+                    experiences that deliver</h1>
+            </div>
+            <!-- Header content -->
+        </div>
+    </header>
+    <!-- Site-Header -->
+
+    <main>
+        <section class="leader mt-20 mb-20 p-4 sm:p-4 md:p-4 lg:p-4 xl:p-4 2xl:p-4">
+            <div class="container mx-auto max-w-6xl">
+                <div class="leader__inner bg-leader-pattern bg-no-repeat pt-60">
+                    <div class="leader__content max-w-xl ml-auto bg-white p-24">
+                        <div class="leader__texts xs:max-w-md sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
+                            <h2 class="text-4xl">The leader in interactive VR</h2>
+                            <p class="text-black-200 opacity-50">Founded in 2011, Loopstudios has been producing
+                                world-class
+                                virtual
+                                reality projects for some
+                                of the best companies around the globe. Our award-winning creations have transformed
+                                businesses through digital experiences that bind to their brand.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Creation section -->
+        <section class="creation pt-10 pb-10">
+            <div class="container mx-auto max-w-6xl p-10">
+                <div class="creation__inner flex justify-between items-center pb-10 ">
+                    <div class="creation__content">
+                        <h2 class="text-4xl">OUR CREATIONS</h2>
+                    </div>
+                    <div class="creation__content">
+                        <button id="clickup" class="text-lg border-2 pl-10 pr-10 pt-3 pb-3 xs:hidden">SEE ALL</button>
+                    </div>
+                </div>
+                <!-- Boxes -->
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 justify-between gap-10 pb-32 w-full">
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-1.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">DEEP EARTH</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-2.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">NIGHT ARCADE</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-3.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">SOCCER TEAM VR</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-4.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">THE GRID</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-5.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">FROM UP ABOVE VR</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-6.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">POCKET BOREALIS</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-7.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">THE CURIOSITY</h3>
+                        </div>
+                    </div>
+                    <div class="creation__lists relative hover:opacity-70">
+                        <img src="../images/creation-8.jpg" alt="Creation">
+                        <div class="creation__text absolute bottom-10 left-8 z-10">
+                            <h3 class="text-white text-2xl opacity-80">MAKE IT FISHEYE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Creation section -->
+    </main>
+
+    <footer class="site-footer bg-black">
+        <div class="container mx-auto max-w-6xl p-10">
+            <div class="site-footer__inner flex justify-between">
+                <div class="site-footer__content">
+                    <a href="#">
+                        <img src="../images/site-logo.svg" alt="Site logo">
+                    </a>
+                    <ul class="navbar__list flex text-white mt-5">
+                        <li class="navbar__item mr-5">
+                            <a class="navbar__link hover:border-b-2" href="#">About</a>
+                        </li>
+                        <li class="navbar__item mr-5">
+                            <a class="navbar__link hover:border-b-2" href="#">Careers</a>
+                        </li>
+                        <li class="navbar__item mr-5">
+                            <a class="navbar__link hover:border-b-2" href="#">Events</a>
+                        </li>
+                        <li class="navbar__item mr-5">
+                            <a class="navbar__link hover:border-b-2" href="#">Products</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__link hover:border-b-2" href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-footer__socials">
+                    <ul class="flex justify-around text-white text-2xl">
+                        <li>
+                            <a class="fa-brands fa-facebook hover:border-b-2" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="fa-brands fa-twitter hover:border-b-2" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="fa-brands fa-pinterest hover:border-b-2" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="fa-brands fa-instagram hover:border-b-2" href="#"></a>
+                        </li>
+                    </ul>
+                    <small class="text-white mt-5 block opacity-50">© 2021 Loopstudios. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
