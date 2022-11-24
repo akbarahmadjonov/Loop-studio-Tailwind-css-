@@ -6,8 +6,8 @@ module.exports = {
       //   "hero-bg": "url('/images/hero-bg.jpg)",
       // },
       backgroundImage: {
-        "hero-pattern": "url('/images/hero-bg.jpg')",
-        "leader-pattern": "url('/images/leader-bg.jpg')",
+        "hero-pattern": "url('./images/hero-bg.jpg')",
+        "leader-pattern": "url('./images/leader-bg.jpg')",
       },
     },
     plugins: [],
